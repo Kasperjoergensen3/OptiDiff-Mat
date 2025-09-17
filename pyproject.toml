@@ -78,3 +78,8 @@ testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
+
+
+#project scripts can be added here in the future
+[project.scripts]
+optidiff-mat-train_schnet_predictive_baseline = "optidiff_mat.train_schnet_predictive_baseline:main"
